@@ -32,6 +32,7 @@ header img{
   width: 50%;
   margin: 40px auto;
   background-color: white;
+  border-radius: 1%;
 }
 
 section{
@@ -56,8 +57,43 @@ main section span{
   color: white;
 }
 
-.bg-word{
+.bg-blue{
   background-color: #3999E4;
+  border-radius: 12px;
+  padding: 5px;
+  color: white;
+}
+
+.bg-violet{
+  background-color: #8856DD;
+  border-radius: 12px;
+  padding: 5px;
+  color: white;
+}
+
+.bg-green{
+  background-color: #55B598;
+  border-radius: 12px;
+  padding: 5px;
+  color: white;
+}
+
+.bg-orange{
+  background-color: #EC8C28;
+  border-radius: 12px;
+  padding: 5px;
+  color: white;
+}
+
+.bg-pink{
+  background-color: #CC498F;
+  border-radius: 12px;
+  padding: 5px;
+  color: white;
+}
+
+.bg-lime{
+  background-color: #A1C11E;
   border-radius: 12px;
   padding: 5px;
   color: white;
