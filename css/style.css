@@ -19,6 +19,7 @@ header{
 h1{
   display: inline-block;
   font-size: 40px;
+  vertical-align: middle;
 }
 
 header img{
@@ -27,5 +28,68 @@ header img{
 
 /* main */
 
+.container{
+  width: 50%;
+  margin: 40px auto;
+  background-color: white;
+}
+
+section{
+  padding: 20px 20px;
+}
+
+section p{
+  margin-top: 15px;
+}
+
+main section span{
+  color: #CCD1D5;
+  border-style: solid;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.button-task{
+  background-color: #479EEE;
+  border: 0;
+  color: white;
+}
+
+.bg-word{
+  background-color: #3999E4;
+  border-radius: 12px;
+  padding: 5px;
+  color: white;
+}
+
+.arrow::before{
+  content: "\25BE";
+}
+
+
+.tick::before{
+  content: "\2713";
+    font-size: 12px;
+    color: #52B396;
+    border: 1px solid #52B396;
+    height: 15px;
+    border-radius: 50%;
+    width: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.cross::before{
+  content: "\2717";
+    font-size: 12px;
+    color: #E22E2E;
+    border: 1px solid #E22E2E;
+    height: 15px;
+    border-radius: 50%;
+    width: 15px;
+    display: inline-block;
+    text-align: center;
+}
 
 /* footer */
